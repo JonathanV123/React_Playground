@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 100vh;
 }
 
 .App-logo {
@@ -29,4 +34,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.helloContainer{
+  width:350px;
+  height: 350px;
+  background-color: green;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.withLoaderContainer{
+  width: 45%;
+  height:45%;
+  background-color:bisque;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loadNotification{
+  width:350px;
+  height: 350px;
+  background-color: red;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
